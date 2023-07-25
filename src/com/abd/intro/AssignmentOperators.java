@@ -1,17 +1,17 @@
 package com.abd.intro;
 
 public class AssignmentOperators {
-	public static void main (String args[]) {
+	public static void main(String args[]) {
 		int a = 62;
 		int b = 17;
 		int c = a + b;
 		int d = a - b;
 		int e = a * b;
 		int g = a / b;
-		int h = (a+=10);
-		int j = (a-=10);
-		int k = (a*=10);
-		int l = (a/=10);
+		int h = (a += 10);
+		int j = (a -= 10);
+		int k = (a *= 10);
+		int l = (a /= 10);
 		int m = a++;
 		int n = ++a;
 		int o = b--;
